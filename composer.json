@@ -1,0 +1,23 @@
+{
+    "name": "reatang/context-bus",
+    "description": "一个单例模式的上下文总线，以链式调用的方式提供模块间通信的一种模式",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reatang",
+            "email": "tangtang1251@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Reatang\\Components\\ContextBus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reatang\\Components\\ContextBus\\Tests\\": "tests/"
+        }
+    }
+}
